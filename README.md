@@ -49,6 +49,7 @@ Due to GitHub’s 100 MB limit, the .pbix file and dataset are hosted externally
 
 Download the PBIX file from Google Drive : https://drive.google.com/file/d/1Mm6CP4lPSqUj-n8Mw_7r-9qPtJosXtVI/view?usp=drive_link
 
+or kaggle: https://www.kaggle.com/datasets/amals418/aml-alert-dashboard/data
 
 Open in Power BI Desktop
 
