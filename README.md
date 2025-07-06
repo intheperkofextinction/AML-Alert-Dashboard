@@ -1,68 +1,99 @@
-# AML-Alert-Dashboard
-## Real-Time Monitoring of Suspicious Financial Transactions using Power BI
+# 📊 AML Alert Dashboard  
+**Real-Time Monitoring of Suspicious Financial Transactions using Power BI**
 
-## Overview
-This project demonstrates how Power BI can be used to monitor and visualize suspicious transactions and money laundering risks in financial data. The dashboard was built using a large synthetic dataset .
+> This project demonstrates how Power BI can be used to identify and monitor suspicious activities in financial data using real-time analytics and AML (Anti-Money Laundering) indicators.
 
-It highlights:
+---
 
-Risk levels (High, Medium, Low)
+## 📁 Overview
 
-Transaction types (Internal / External)
+This project features an interactive dashboard built using **Power BI** that processes a large synthetic dataset of financial transactions. The dashboard enables real-time monitoring of potential money laundering activities, providing insights through risk scoring, categorization, and alert generation.
 
-High-risk transaction alerts
+---
 
-Time-based trend analysis
+## 🧠 Key Features
 
-Frequency of transactions between banks
+✅ Risk Level Classification (High / Medium / Low)  
+✅ Internal vs External Transaction Detection  
+✅ KPI Cards: High-Risk %, External Transactions %, Total Amount Paid  
+✅ Heatmap of Transaction Frequencies between Banks  
+✅ Time-Series: Amount Paid by Risk Level  
+✅ Alerts Table for Investigative Teams
 
-Alert tables for further investigation
+---
 
-## Key Features
-✅ Risk Classification: Transactions categorized using amount-based logic
+## 📊 Visuals Included
 
-✅ Transaction Category: Internal vs. External identified by bank IDs
+- Risk Level Distribution (Donut Chart)  
+- Amount Paid vs Risk Level (Bar Chart)  
+- Daily Trends (Line Chart)  
+- Alerts Table (Sorted by Risk & Value)  
+- Matrix Heatmap of transaction frequency
 
-✅ Dynamic Filtering: Slicers for date, risk level, and transaction type
+---
 
-✅ Visuals:
+## 🗂️ Project Files
 
-KPI cards (High-Risk %, Total Amount, Alerts)
+| File                          | Description                                       |
+|------------------------------|---------------------------------------------------|
+| `aml_alert_dashboard.pbix`   | Power BI Dashboard (External link below)         |
+| `AML Alert Dashboard.pdf`    | PDF snapshot of the dashboard with explanations  |
+| `LI-Small_Trans.csv`         | Main synthetic transaction dataset (650+ MB)     |
 
-Donut chart of risk levels
+📎 View Dashboard PDF:  
+🔗 [Google Drive PDF Report](https://drive.google.com/file/d/1Mm6CP4lPSqUj-n8Mw_7r-9qPtJosXtVI/view?usp=sharing)
 
-Heatmap for transaction frequency
+📎 Data Source on Kaggle:  
+🔗 [Kaggle Dataset – AML Alert Dashboard](https://www.kaggle.com/datasets/amals418/aml-alert-dashboard)
 
-Alerts table with risk classification
+---
 
-Time-series analysis of amount paid
+## 📌 Use Cases
 
-## Data Source
-📦 Synthetic Transaction Data by IBM
+- AML & Financial Crime Analysis  
+- BI Portfolio Projects  
+- Interview Case Studies  
+- Risk Monitoring Dashboards
 
-🔗 Kaggle: AML Alert Dashboard Dataset
+---
 
-📄 PDF Report: View Project PDF
+## 🛠️ Technologies Used
 
-## How to Use
-Due to GitHub’s 100 MB limit, the .pbix file and dataset are hosted externally:
+- **Power BI Desktop**
+- **DAX** for calculated columns (RiskLevel, TransactionCategory)
+- **Git & GitHub**
+- **Synthetic data by IBM (via Box)**
 
-Download the PBIX file from Google Drive : https://drive.google.com/file/d/1Mm6CP4lPSqUj-n8Mw_7r-9qPtJosXtVI/view?usp=drive_link
+---
 
-or kaggle: https://www.kaggle.com/datasets/amals418/aml-alert-dashboard/data
+## 🚀 Instructions to Use
 
-Open in Power BI Desktop
+Due to GitHub’s 100MB file size limit, the `.pbix` file and raw dataset are hosted externally.
 
-Explore or extend the dashboard using your own AML models
+1. Download `.pbix` file and dataset from Kaggle or Google Drive
+2. Open the `.pbix` file in Power BI Desktop
+3. Explore filters, KPI cards, and visuals
+4. Extend the project by adding:
+   - Machine learning fraud detection
+   - Alert scoring systems
+   - Real-time streaming via Power BI Service
 
-## Contact
-If you'd like to collaborate or have questions:
+---
 
-Amal S
+## 📬 Contact
 
-📫 LinkedIn linkedin.com/in/amal-s-9a5b86310
+**Amal S**  
+📧 Email: *amal17ek@gmail.com*  
+🌐 GitHub: [intheperkofextinction](https://github.com/intheperkofextinction)  
+🌍 LinkedIn: *linkedin.com/in/amal-s-9a5b86310*
 
-📬 amal17ek@gmail.com 
+---
+
+## 📄 License
+
+This project uses synthetic data and is published for learning and portfolio purposes only.
+
+
 
 
 
