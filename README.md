@@ -85,7 +85,7 @@ Due to GitHub’s 100MB file size limit, the `.pbix` file and raw dataset are ho
 **Amal S**  
 📧 Email: *amal17ek@gmail.com*  
 🌐 GitHub: [intheperkofextinction](https://github.com/intheperkofextinction)  
-🌍 LinkedIn: *linkedin.com/in/amal-s-9a5b86310*
+🌍 LinkedIn: [Amal S](linkedin.com/in/amal-s-9a5b86310)
 
 ---
 
